@@ -1,16 +1,30 @@
+header{
+    background: #21222A;
+    padding: 1.9375rem 1.625rem;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #61dafb;;
+    align-items: center;
   }
   
 
-.headerul{
-    list-style: none;
-    display: flex;
+.headerh3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.1875rem;
+    
 }
 
-.headerli{
-    margin-left: 1rem;
-    list-style: none;
+.nav-left{
+    display: flex;
+    color: #61dafb;
+    align-items: center;
+}
+
+.nav-right{
+    font-size: 1.4rem;
+    color: #DEEBF8;
 }

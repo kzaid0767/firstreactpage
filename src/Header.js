@@ -7,12 +7,13 @@ function Header() {
     <div>
         <header>
             <nav>
-                <img src={logo} className="App-logo" alt="logo" />
-                <ul className='headerul'>
-                    <li className='headerli'>Pricing</li>
-                    <li className='headerli'>About</li>
-                    <li className='headerli'>Contact</li>
-                </ul>
+                <div className='nav-left'>
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <h3 className='headerh3'>ReactFacts</h3>
+                </div>
+                <h4 className='nav-right'>
+                    React Course - Project 1
+                </h4>
             </nav>
         </header>
     </div>

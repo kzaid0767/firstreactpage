@@ -1,6 +1,13 @@
-.footerDiv{
-    width: 20rem;
+.footerDiv, a{
+    width: 20vw;
     margin: 0 auto;
     align-self: center;
     color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
 }
